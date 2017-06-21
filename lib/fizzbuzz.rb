@@ -10,7 +10,7 @@ Given an integer input, print:
 BONUS:
 - Refactor for DRYness.
 - Refactor to make it dynamically capable of taking in various multiple pairs or messages.
-**EX:** "Foo" for multiples of 2, "Bar" for mutliples of 7, "FooBar" for multiples of 14.
+EX: "Foo" for multiples of 2, "Bar" for mutliples of 7, "FooBar" for multiples of 14.
 
-Start by pseudocoding the tests. In concise terms, **describe** what is **expected**. Within what **context**? if it's not concise, break **it** down further.
+Start by pseudocoding the tests. In concise terms, describe what is expected. Within what context? if it's not concise, break it down further.
 =end
