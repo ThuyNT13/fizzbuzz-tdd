@@ -4,6 +4,14 @@ Granted, FizzBuzz is a simple program to write, but breaking it down into its in
 
 Also testing out ways to help coders learn how to approach solving algorithms by breaking down a complex problem into smaller, individual parts. Make it less intimidating.
 
-The point of the exercise is not to write one-line, unreadable code. Readability is paramount and single-responsibility is golden. 
+The point of the exercise is not to write one-line, unreadable code. Readability is paramount and single-responsibility is golden.
 
 Check out the [Wiki](https://github.com/ThuyNT13/fizzbuzz-tdd/wiki) for notes about Rspec, Ruby and general references.
+
+## Support
+
+Please open [an issue](https://github.com/ThuyNT13/fizzbuzz-tdd/issues) for support.
+
+## Contributing
+
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and open a [pull request](https://github.com/ThuyNT13/fizzbuzz-tdd/pulls).
