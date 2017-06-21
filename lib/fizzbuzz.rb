@@ -1,11 +1,11 @@
 =begin
-Write a program that prints integers from 1 to 100 using FizzBuzz rules.
+Write a program that prints integers from 1 to 100 using FizzBuzz rules as follows:
 
-Given an integer input, print:
-- "Fizz" if it's a multiple of 3
-- "Buzz" if it's a mutiple of 5
-- "FizzBuzz" if it's a mutliple of 3 and 5 (15)
-- the number if neither a mutiple of 3 nor 5
+  Given an integer input, print:
+  - "Fizz" if it's a multiple of 3
+  - "Buzz" if it's a mutiple of 5
+  - "FizzBuzz" if it's a mutliple of 3 and 5 (15)
+  - the number if neither a mutiple of 3 nor 5
 
 BONUS:
 - Refactor for DRYness.
