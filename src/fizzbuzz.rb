@@ -15,6 +15,14 @@ EX: "Foo" for multiples of 2, "Bar" for mutliples of 7, "FooBar" for multiples o
 Start by pseudocoding the tests. In concise terms, describe what is expected. Within what context? if it's not concise, break it down further.
 =end
 
+def fizzbuzz(maxNum, multi1, multi2)
+  count = 1
+  while maxNum >= count do
+    prints(count, multi1, multi2)
+    count +=1
+  end
+end
+
 def divisible_by?(multi, num)
   num % multi == 0
 end
