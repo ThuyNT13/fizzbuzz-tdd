@@ -1,1 +1,1 @@
-require_relative '../lib/fizzbuzz.rb'
+require_relative '../src/fizzbuzz.rb'

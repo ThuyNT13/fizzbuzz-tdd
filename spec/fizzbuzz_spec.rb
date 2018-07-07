@@ -1,35 +1,33 @@
 require_relative 'spec_helper.rb'
 
 describe 'FizzBuzz' do
-  describe 'is_divisible_by_3?()' do
-    it 'returns true if divisible by 3' do
-      expect(is_divisible_by_3?(21)).to be(true)
+  describe 'divisible_by?()' do
+    it 'checks if integer is divisible by 3' do
+      expect(divisible_by?(3, 33)).to be(true)
     end
-    it 'returns false if not divisible by 3' do
-      expect(is_divisible_by_3?(4)).to be(false)
+    it 'checks if integer is not divisible by 3' do
+      expect(divisible_by?(3, 7)).to be(false)
     end
-  end
-  describe 'is_divisible_by_5?()' do
-    it 'returns true if divisible by 5' do
-      expect(is_divisible_by_5?(45)).to be(true)
+    it 'checks if integer is divisible by 5' do
+      expect(divisible_by?(5, 90)).to be(true)
     end
-    it 'returns false if not divisible by 5' do
-      expect(is_divisible_by_5?(38)).to be(false)
+    it 'checks if integer is not divisible by 3' do
+      expect(divisible_by?(5, 57)).to be(false)
     end
   end
 
-  describe 'fizzbuzz() prints' do
-    it 'the input integer for numbers divisible by neither 3 nor 5.' do
-      expect(fizzbuzz(37)).to eq(37)
+  describe 'prints()' do
+    it "prints integer for integers indivisible by either pairs of integers" do
+      expect(prints(37, 3, 5)).to eq("37")
     end
-    it '"Fizz" for numbers divisible by 3.' do
-      expect(fizzbuzz(6)).to eq("Fizz")
+    it "prints fizz for integers divisible by the lesser of the integer pairs" do
+      expect(prints(99, 3, 5)).to eq("fizz")
     end
-    it '"Buzz" for numbers divisible by 5.' do
-      expect(fizzbuzz(100)).to eq("Buzz")
+    it "prints buzz for integers divisible by the greater of the integer pairs" do
+      expect(prints(55, 3, 5)).to eq("buzz")
     end
-    it '"FizzBuzz" for numbers divisible by 3 and 5.' do
-      expect(fizzbuzz(45)).to eq("FizzBuzz")
+    it "prints fizzbuzz for integers divisible by both integer pairs" do
+      expect(prints(210, 3, 5)).to eq("fizzbuzz");
     end
   end
 end
